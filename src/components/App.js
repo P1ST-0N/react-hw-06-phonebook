@@ -1,6 +1,6 @@
 import { ContactsList } from './Contacts/ContactsList';
-// import { ContactForm } from './Form/ContactForm';
-// import { Filter } from './Filter/Filter';
+import { ContactForm } from './Form/ContactForm';
+import { Filter } from './Filter/Filter';
 
 export const App = () => {
   return (
@@ -15,11 +15,11 @@ export const App = () => {
     >
       <h1 style={{ textAlign: 'center' }}>PhoneBook</h1>
 
-      {/* <ContactForm /> */}
+      <ContactForm />
 
       <h2 style={{ textAlign: 'center' }}>Contacts</h2>
 
-      {/* <Filter /> */}
+      <Filter />
       <ContactsList />
     </div>
   );
